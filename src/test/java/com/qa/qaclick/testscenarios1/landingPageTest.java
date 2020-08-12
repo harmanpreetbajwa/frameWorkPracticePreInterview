@@ -22,8 +22,6 @@ public class landingPageTest extends Base {
 	public void check_If_Featured_Courses_Text_is_Present() {
 		 hp = new HomePage(driver);
 		driver.get("http://www.qaclickacademy.com/");
-		String textIsPresent = hp.featuredCoursesText().getText();
-		System.out.println(textIsPresent);
 		
 	}
 }
