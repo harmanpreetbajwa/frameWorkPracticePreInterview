@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8837" started-at="2020-08-12T23:54:19Z" finished-at="2020-08-12T23:54:27Z">
+  <suite name="Suite" duration-ms="7925" started-at="2020-08-12T23:58:10Z" finished-at="2020-08-12T23:58:18Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="8837" started-at="2020-08-12T23:54:19Z" finished-at="2020-08-12T23:54:27Z">
+    <test name="Test" duration-ms="7925" started-at="2020-08-12T23:58:10Z" finished-at="2020-08-12T23:58:18Z">
       <class name="com.qa.qaclick.testscenarios1.landingPageTest">
-        <test-method status="PASS" signature="initialize_driver()[pri:0, instance:com.qa.qaclick.testscenarios1.landingPageTest@50c87b21]" name="initialize_driver" is-config="true" duration-ms="4873" started-at="2020-08-12T19:54:19Z" finished-at="2020-08-12T19:54:24Z">
+        <test-method status="PASS" signature="initialize_driver()[pri:0, instance:com.qa.qaclick.testscenarios1.landingPageTest@50c87b21]" name="initialize_driver" is-config="true" duration-ms="4564" started-at="2020-08-12T19:58:10Z" finished-at="2020-08-12T19:58:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize_driver -->
-        <test-method status="PASS" signature="check_If_Featured_Courses_Text_is_Present()[pri:0, instance:com.qa.qaclick.testscenarios1.landingPageTest@50c87b21]" name="check_If_Featured_Courses_Text_is_Present" duration-ms="3952" started-at="2020-08-12T19:54:24Z" finished-at="2020-08-12T19:54:27Z">
+        <test-method status="PASS" signature="check_If_Featured_Courses_Text_is_Present()[pri:0, instance:com.qa.qaclick.testscenarios1.landingPageTest@50c87b21]" name="check_If_Featured_Courses_Text_is_Present" duration-ms="3351" started-at="2020-08-12T19:58:14Z" finished-at="2020-08-12T19:58:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_If_Featured_Courses_Text_is_Present -->
