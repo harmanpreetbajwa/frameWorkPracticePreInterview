@@ -30,7 +30,7 @@ public static WebDriver initializeDriver() throws IOException {
 	
 	 	prop= new Properties();		
 	 	projectPath = System.getProperty("user.dir");
-		FileInputStream fis=new FileInputStream(projectPath+"\\src\\main\\java\\resources\\data.properties");
+		FileInputStream fis=new FileInputStream(projectPath+"//src//main//java//resources//data.properties");
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
 		
