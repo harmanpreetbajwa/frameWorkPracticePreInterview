@@ -30,32 +30,32 @@ public static WebDriver initializeDriver() throws IOException {
 	
 	 	prop= new Properties();		
 	 	projectPath = System.getProperty("user.dir");
-		FileInputStream fis=new FileInputStream(projectPath+"\\src\\main\\java\\resources\\data.properties");
-		prop.load(fis);
-		String browserName = prop.getProperty("browser");
+//		FileInputStream fis=new FileInputStream(projectPath+"\\src\\main\\java\\resources\\data.properties");
+//		prop.load(fis);
+//		String browserName = prop.getProperty("browser");
 		
-		if(browserName.equalsIgnoreCase("CHROME")) {
+		//if(browserName.equalsIgnoreCase("CHROME")) {
 			WebDriverManager.chromedriver().setup();
 			driver= new ChromeDriver();
-		}
+		//}
 		
-		else if(browserName.equalsIgnoreCase("HEADLESS")) {
-			WebDriverManager.chromedriver().setup();
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("headless");
-			driver= new ChromeDriver(options);
-		}
-		
-		
-		else if(browserName.equalsIgnoreCase("FIREFOX")) {
-			WebDriverManager.firefoxdriver().setup();
-			driver= new FirefoxDriver();
-		}
-		
-		else if(browserName.equalsIgnoreCase("EDGE")) {
-			WebDriverManager.edgedriver().setup();
-			driver= new EdgeDriver();
-		}
+//		else if(browserName.equalsIgnoreCase("HEADLESS")) {
+//			WebDriverManager.chromedriver().setup();
+//			ChromeOptions options = new ChromeOptions();
+//			options.addArguments("headless");
+//			driver= new ChromeDriver(options);
+//		}
+//		
+//		
+//		else if(browserName.equalsIgnoreCase("FIREFOX")) {
+//			WebDriverManager.firefoxdriver().setup();
+//			driver= new FirefoxDriver();
+//		}
+//		
+//		else if(browserName.equalsIgnoreCase("EDGE")) {
+//			WebDriverManager.edgedriver().setup();
+//			driver= new EdgeDriver();
+//		}
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return driver;
