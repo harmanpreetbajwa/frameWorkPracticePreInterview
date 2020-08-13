@@ -34,10 +34,10 @@ public static WebDriver initializeDriver() throws IOException {
 //		prop.load(fis);
 //		String browserName = prop.getProperty("browser");
 		
-		//if(browserName.equalsIgnoreCase("CHROME")) {
-			WebDriverManager.chromedriver().setup();
-			driver= new ChromeDriver();
-		//}
+//		if(browserName.equalsIgnoreCase("CHROME")) {
+//			WebDriverManager.chromedriver().setup();
+//			driver= new ChromeDriver();
+//		}
 		
 //		else if(browserName.equalsIgnoreCase("HEADLESS")) {
 //			WebDriverManager.chromedriver().setup();
@@ -47,9 +47,9 @@ public static WebDriver initializeDriver() throws IOException {
 //		}
 //		
 //		
-//		else if(browserName.equalsIgnoreCase("FIREFOX")) {
-//			WebDriverManager.firefoxdriver().setup();
-//			driver= new FirefoxDriver();
+//	else if(browserName.equalsIgnoreCase("FIREFOX")) {
+			WebDriverManager.firefoxdriver().setup();
+			driver= new FirefoxDriver();
 //		}
 //		
 //		else if(browserName.equalsIgnoreCase("EDGE")) {
